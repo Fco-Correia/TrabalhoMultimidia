@@ -1,20 +1,20 @@
 
 const seoConfig = {
-  title: "Rafael Goulart - Frontend Developer Portfolio",
-  description: "I'm Rafael Goulart, Frontend Developer and I work with React.js, Next.js, React Native and Node.js.",
+  title: "Francisco Correia - Portfólio de Desenvolvedor Frontend",
+  description: "Sou Francisco Correia, Desenvolvedor Frontend e trabalho com React.js, Next.js, React Native e Node.js.",
   openGraph: {
     url: 'https://rafaelgoulartb.vercel.app/',
-    title: 'Rafael Goulart Portfolio - Next.js, Typescript and React Native',
-    description: 'It is my portfolio as a Front-end Developer',
+    title: 'Portfólio de Francisco Correia - Next.js, Typescript e React Native',
+    description: 'Este é meu portfólio como Desenvolvedor Front-end',
     images: [
       {
         url: '/og/og-image.png',
         width: 900,
         height: 800,
-        alt: 'Rafael Goulart Portfolio - Next.js, Typescript and React Native',
+        alt: 'Portfólio de Francisco Correia - Next.js, Typescript e React Native',
       }
     ],
-    site_name: 'Rafael Goulart - Frontend Developer Portfolio',
+    site_name: 'Francisco Correia - Portfólio de Desenvolvedor Frontend',
   },
   twitter: {
     handle: '@handle',

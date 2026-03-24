@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
       width="100%"
       mx="auto"
       mt="48"
-      bg="gray.500"
+      bg="#2d3748"
       py="50px"
       px="10px"
     >

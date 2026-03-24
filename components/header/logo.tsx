@@ -6,7 +6,7 @@ const Logo: React.FC = () => {
     <Link href="#" _hover={{ textDecor: 'none' }}>
       <Heading as="h1" fontSize="2xl" color="gray.500">
         <Text display="inline" fontWeight="bold">
-          Rafael Goulart
+          Francisco Correia
         </Text>
       </Heading>
     </Link>

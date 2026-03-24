@@ -15,7 +15,7 @@ const Services: React.FC = () => {
       mx="auto"
       mt="48"
     >
-      <SectionTitle>Services</SectionTitle>
+      <SectionTitle>Serviços</SectionTitle>
 
       <Flex flexWrap="wrap">
         {services.map(service => (

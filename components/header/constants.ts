@@ -5,19 +5,15 @@ export interface navLinksProps {
 
 export const navLinks: navLinksProps[] = [
   {
-    label: 'About',
+    label: 'Sobre',
     link: 'about'
   },
   {
-    label: 'Portfolio',
-    link: 'portfolio'
-  },
-  {
-    label: 'Services',
+    label: 'Serviços',
     link: 'services'
   },
   {
-    label: 'Skills',
+    label: 'Habilidades',
     link: 'skills'
   },
 ]

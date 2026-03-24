@@ -13,6 +13,7 @@ const SectionTitle: React.FC<HeadingProps> = ({ children, ...props }) => {
       fontWeight="bold"
       mb="12"
       mx="auto"
+      color="gray.500"
       {...props}
     >
       {children}

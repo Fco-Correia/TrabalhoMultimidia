@@ -22,10 +22,10 @@ const SkillsItem: React.FC<SkillsInterface> = ({ name, expTime, icon }) => {
       }}
     >
       <Box as={icon} w="50px" h="50px" color="blue.500" alignSelf="center" />
-      <Heading as="h2" fontSize="xl" py="5">
+      <Heading as="h2" fontSize="xl" py="5" color="gray.500">
         {name}
       </Heading>
-      <Text lineHeight="tall" fontWeight="light" fontSize="lg">
+      <Text lineHeight="tall" fontWeight="light" fontSize="lg" color="gray.500">
         {expTime()}
       </Text>
     </Box>

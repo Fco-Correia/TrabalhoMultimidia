@@ -1,9 +1,9 @@
 import { AboutInterface } from "../../components/section/about/types"
 
 const about: AboutInterface = {
-  name: 'Rafael Goulart',
-  description: `Hello, I'm Rafael. Frontend Developer passionate about the open-source world and developing solutions using technology, focused on solving problems in the areas of Web and Mobile. Currently working with React, Next.js, React Native and Node.js in Freelance projects. If there is an opportunity for me to do it. I am ready!`,
-  email: 'rafagoulartb@gmail.com'
+  name: 'Francisco Correia',
+  description: `Sou Francisco, Desenvolvedor Full Stack apaixonado por tecnologia e pela criação de soluções inovadoras. Cursando Ciência da Computação na UESPI, tenho experiência sólida com React, Next.js, React Native e Node.js em diversos projetos. Também trabalho com Python e FastAPI, além de experiência com bancos de dados como PostgreSQL e SQL Server. Estou sempre em busca de novos desafios e oportunidades para aplicar meus conhecimentos de forma profissional e contribuir para projetos impactantes.`,
+  email: 'fconetophb@hotmail.com'
 }
 
 export default about

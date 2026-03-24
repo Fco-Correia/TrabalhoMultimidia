@@ -26,10 +26,10 @@ const ServicesItem: React.FC<ServicesInterface> = ({
       }}
     >
       <Box as={icon} boxSize="50px" color="blue.500" alignSelf="center" />
-      <Heading as="h2" fontSize="xl" py="5">
+      <Heading as="h2" fontSize="xl" py="5" color="gray.500">
         {name}
       </Heading>
-      <Text lineHeight="tall" fontWeight="light" fontSize="lg">
+      <Text lineHeight="tall" fontWeight="light" fontSize="lg" color="gray.500">
         {description}
       </Text>
     </Box>

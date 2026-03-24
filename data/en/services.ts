@@ -6,23 +6,23 @@ import { ServicesInterface } from '../../components/section/services/types'
 
 const services: ServicesInterface[] = [
   {
-    name: 'Website Creation',
-    description: 'Development of professional websites, web systems, blogs and online stores focused on results.',
+    name: 'Criação de Sites',
+    description: 'Desenvolvimento de sites profissionais, sistemas web, blogs e lojas online focados em resultados.',
     icon: MdDesktopWindows
   },
   {
-    name: 'Responsive Websites',
-    description: 'Creating responsive websites for the best viewing on mobile devices with quality on all screens.',
+    name: 'Sites Responsivos',
+    description: 'Criação de sites responsivos para melhor visualização em dispositivos móveis com qualidade em todas as telas.',
     icon: MdLaptopMac
   },
   {
-    name: 'Mobile Applications',
-    description: 'Development of multi-platform apps, using modern like React Native, Expo and Firebase.',
+    name: 'Aplicativos Mobile',
+    description: 'Desenvolvimento de apps multi-plataforma, usando tecnologias modernas como React Native, Expo e Firebase.',
     icon: GiSmartphone
   },
   {
-    name: 'APIs Development',
-    description: 'Developing APIs using modern technologies like GraphQL and REST. Always with a good and clean code.',
+    name: 'Desenvolvimento de APIs',
+    description: 'Desenvolvendo APIs robustas e escaláveis usando Node.js e FastAPI. Sempre com código bem estruturado, limpo e fácil de manter.',
     icon: FaServer
   },
 ]

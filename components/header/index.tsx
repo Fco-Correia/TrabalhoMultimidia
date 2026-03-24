@@ -46,8 +46,8 @@ const Header: React.FC = props => {
       paddingX={{ base: '2em', xl: '15%' }}
       paddingY="1.5em"
       backgroundColor="white"
-      boxShadow="0px 0px 3px rgba(44, 44, 44, 0.267);"
-      color="white"
+      boxShadow="0px 0px 3px rgba(44, 44, 44, 0.267)"
+      color="gray.500"
       zIndex={999}
       {...props}
     >
@@ -81,12 +81,20 @@ const Header: React.FC = props => {
             }
           }}
           fill="#212529"
-          width="22px"
+          width="20px"
           viewBox="0 0 20 20"
           xmlns="http://www.w3.org/2000/svg"
+          style={{ cursor: 'pointer' }}
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.95 }}
         >
           <title>Menu</title>
-          <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+          <motion.g
+            animate={{ rotateZ: show ? 45 : 0 }}
+            transition={{ duration: 0.3 }}
+          >
+            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+          </motion.g>
         </motion.svg>
       </Box>
 
@@ -97,21 +105,14 @@ const Header: React.FC = props => {
         }}
         width={{ sm: 'full', lg: 'auto' }}
         marginTop={{ sm: '20px', lg: '0' }}
+        alignItems="center"
       >
-        <Divider />
-        {navLinks.map(item => (
+        {navLinks.map((item, index) => (
           <motion.div
             key={item.label}
-            initial="hidden"
-            animate="visible"
-            transition={transition}
-            variants={{
-              hidden: { y: -150, opacity: 0 },
-              visible: {
-                y: 0,
-                opacity: 1
-              }
-            }}
+            initial={{ y: 0, opacity: 1 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.3 }}
           >
             <MenuItems key={item.label} onClick={handleToggle} link={item.link}>
               {item.label}

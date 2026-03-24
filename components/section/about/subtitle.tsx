@@ -17,10 +17,10 @@ const Subtitle: React.FC<SubtitleInterface> = ({ email }) => {
     >
       <Heading as="h2" fontSize={{ sm: 'xl', lg: '3xl' }}>
         <Text fontWeight="light" display="inline">
-          Front
+          Full
         </Text>
         <Text fontWeight="bold" display="inline">
-          End
+          Stack
         </Text>
       </Heading>
 
@@ -30,7 +30,7 @@ const Subtitle: React.FC<SubtitleInterface> = ({ email }) => {
         mx={{ sm: '2', lg: '3' }}
       />
 
-      <Link href="mailto:rafagoulartb@gmail.com" isExternal>
+      <Link href="mailto:fconetophb@hotmail.com" isExternal>
         <Text fontWeight="light" textTransform="uppercase">
           {email}
         </Text>

@@ -3,6 +3,7 @@ import { Text, Flex, Heading, Link, Button, Stack } from '@chakra-ui/react'
 import Subtitle from './subtitle'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { motion } from 'framer-motion'
+import TypingEffect from '../../typing-effect'
 
 import about from '../../../data/en/about'
 
@@ -36,6 +37,7 @@ const About: React.FC = () => {
           fontSize={{ sm: '4xl', lg: '6xl' }}
           fontWeight="bold"
           mb="4"
+          color="gray.500"
         >
           {about.name}
         </Heading>
@@ -55,15 +57,7 @@ const About: React.FC = () => {
           }
         }}
       >
-        <Text
-          fontWeight="light"
-          mt="8"
-          maxW="840px"
-          fontSize={{ sm: 'md', lg: 'lg' }}
-          lineHeight="lg"
-        >
-          {about.description}
-        </Text>
+        <TypingEffect text={about.description} speed={30} />
       </motion.div>
 
       <motion.div
@@ -81,17 +75,17 @@ const About: React.FC = () => {
         <Stack direction="row" spacing={5} mt="8">
           <Link
             isExternal
-            href="https://www.github.com/RafaelGoulartB"
+            href="https://github.com/Fco-Correia"
             _hover={{ textDecor: 'none' }}
           >
             <Button leftIcon={<FaGithub />} colorScheme="blue" variant="solid">
-              My Github
+              Meu Github
             </Button>
           </Link>
 
           <Link
             isExternal
-            href="https://www.linkedin.com/in/rafael-goulartb/"
+            href="https://www.linkedin.com/in/francisco-correia-35711b250/"
             _hover={{ textDecor: 'none' }}
           >
             <Button
@@ -99,7 +93,7 @@ const About: React.FC = () => {
               colorScheme="blue"
               variant="solid"
             >
-              My Linkedin
+              Meu Linkedin
             </Button>
           </Link>
         </Stack>

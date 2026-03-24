@@ -11,18 +11,18 @@ export interface footerSocialLinksProps {
 
 export const footerSocialLinks: footerSocialLinksProps[] = [
   {
-    label: 'Github Profile',
-    link: 'https://www.github.com/RafaelGoulartB',
+    label: 'Perfil Github',
+    link: 'https://github.com/Fco-Correia',
     icon: FaGithub
   },
   {
-    label: 'Linkedin Profile',
-    link: 'https://www.linkedin.com/in/rafael-goulartb/',
+    label: 'Perfil Linkedin',
+    link: 'https://www.linkedin.com/in/francisco-correia-35711b250/',
     icon: FaLinkedin
   },
   {
-    label: 'Mail Me',
-    link: 'mailto:rafagoulartb@gmail.com',
+    label: 'Envie um Email',
+    link: 'mailto:fconetophb@hotmail.com',
     icon: SiGmail
   },
 ]

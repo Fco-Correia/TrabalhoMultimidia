@@ -14,7 +14,7 @@ const Skills: React.FC = () => {
       mx="auto"
       mt="48"
     >
-      <SectionTitle>Skills</SectionTitle>
+      <SectionTitle>Habilidades</SectionTitle>
       <Flex flexWrap="wrap">
         {skills.map(skill => (
           <SkillsItem
